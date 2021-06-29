@@ -9,7 +9,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  background: #0674e2;
   background-size: cover;
   left: 0;
   right: 0;
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
+  background: #1c7d32;
   color: #fff;
   line-height: 1;
   margin-right: 8px;
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #12d640;
+  color: #080808;
   text-decoration: none;
 }
 
@@ -364,7 +364,7 @@ th,td{
 .h3green {
   font-weight: 700;
   font-size: 26px;
-  color: #1c7d32;
+  color: #cdfa06;
   margin-bottom: 10px;
 }
 

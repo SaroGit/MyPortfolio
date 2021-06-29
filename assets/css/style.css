@@ -9,7 +9,9 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #0674e2;
+  /* background: #0674e2; */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 17%, rgba(9,122,238,1) 79%, rgba(0,212,255,1) 100%); 
   background-size: cover;
   left: 0;
   right: 0;
@@ -51,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header * {
   transition: ease-in-out 0s;
+  color: #dedee6;
 }
 
 #header h1 {
@@ -63,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #dedee6;
+  
   line-height: 1;
   display: inline-block;
 }
@@ -71,7 +74,6 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: #f5faf6;
 }
 
 
@@ -91,7 +93,6 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   background: #1c7d32;
-  color: #fff;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -166,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #080808;
+  color: #0508d1;
   text-decoration: none;
 }
 
